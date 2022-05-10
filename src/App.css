@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('../src/Fonts/Inter-Bold.eot');
+  src: url('../src/Fonts/Inter-Bold.eot?#iefix') format('embedded-opentype'), url('../src/Fonts/Inter-Bold.woff2') format('woff2'), url('../src/Fonts/Inter-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: 'Inter-Light';
+  src: url('../src/Fonts/Inter-Light.eot');
+  src: url('../src/Fonts/Inter-Light.eot?#iefix') format('embedded-opentype'), url('../src/Fonts/Inter-Light.woff2') format('woff2'), url('../src/Fonts/Inter-Light.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url('../src/Fonts/Inter-Medium.eot');
+  src: url('../src/Fonts/Inter-Medium.eot?#iefix') format('embedded-opentype'), url('../src/Fonts/Inter-Medium.woff2') format('woff2'), url('../src/Fonts/Inter-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+body{
+  background-color: #F9F8F3;
+}
+.calculator{
+  padding: 1.5rem;
+  padding-bottom: 1.5rem;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15), 0px 12px 34px rgba(0, 0, 0, 0.1);
+    width: 365px;
+    margin:10px auto;
+    border-radius: 6px;
+    margin-bottom: 55px;
+}
+
+h1{
+  font-size: 1.375rem;
+    line-height: 1.1;
+    margin: 0;
+    padding-bottom: 1.5rem;
+}
+h2,.duration{
+  font-family: 'Inter-Light';
+  font-size:14px;
+  color: #595959 !important;
+  font-weight: 400;
+  margin-top: 1.5rem;
+  margin-bottom: 8px;
+}
+.react-tabs__tab-list{
+  width: 354px;
+  background-color: #dcd9d9;
+  padding: 5px !important;
+  border-bottom: unset !important;
+  border-radius: 6px;
+}
+.react-tabs__tab-list .react-tabs__tab{
+  font-family: 'Inter-Medium';
+  font-weight: 500;
+    color: hsl(0, 0%, 25%);
+    width: 151px;
+    text-align: center;
+    bottom: 0 !important;
+    font-size: 14px;
+}
+.react-tabs__tab-list .react-tabs__tab--selected{
+  border-radius: 5px !important;
+  border-color: transparent !important;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button{
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  margin: 0 !important;  
+  box-shadow: 0px 0px 1.5px rgba(0, 0, 0, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+input{
+  font-family: 'Inter-Light';
+  font-size: 1rem;
+  padding: 15px 16px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0px 0px 1.5px rgba(0, 0, 0, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.1);
+    width: 332px;
+    font-size: 1rem;
+    color: #343434;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.duration{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.css-yvszuv-Slider{
+  width: 360px !important;
+}
+.css-3g5hux-Slider{
+  background-color: #007aff !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
